@@ -8,11 +8,12 @@ Email-Id - Ayub.Shaikh.Vahid@gmail.com
 The program is in C- language. name of program file is-
 **DigitalSignaturesStdAlgo.c**
 
-To generate binary EXE file use this command - gcc DigitalSignaturesStdAlgo.c -o main -lgmp
-and tehn run the exe.
+To generate binary EXE file use this command
+- gcc DigitalSignaturesStdAlgo.c -o DSS -lgmp
+and then run the exe.
 or dirctly compile the program DigitalSignaturesStdAlgo.c and sha_256.h programs it will run the 
 We can use the online c compiler to Run this as well just add these 2 files DigitalSignaturesStdAlgo.c and sha_256.h
-and it will run the program easy way.( on nline compiler to run the program https://www.onlinegdb.com/online_c_compiler)
+and it will run the program easy way.( online compiler to run the program https://www.onlinegdb.com/online_c_compiler)
 
 **Sample Output 1 :**
 1. Enter the message: any number can enter belwo is example msg is- 123456789

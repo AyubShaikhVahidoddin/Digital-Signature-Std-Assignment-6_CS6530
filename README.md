@@ -7,7 +7,7 @@ Email-Id - Ayub.Shaikh.Vahid@gmail.com
 
 Sample Output 1 :
 1. Enter the message: any number can enter belwo is example msg is- 123456789
-2. the program do the key gernartiona nd signature generation as per screen shot.
+2. then program do the key gernartion and signature generation as per screen shot.
 ![image](https://user-images.githubusercontent.com/94394753/145401172-a7b91606-1546-4343-a5ab-dc15e99a9ae4.png)
 
 3. Now to verfiy the Signature belwo is screen shot
@@ -27,3 +27,10 @@ Sample Output 2 :
 ![image](https://user-images.githubusercontent.com/94394753/145404067-1e9fa1d8-3a31-40cc-9dcb-bd229a7bf165.png)
 
 Sample Output 3 :
+any number entered 9998 then program do the key gernartion and signature generation as per screen shot.
+![image](https://user-images.githubusercontent.com/94394753/145405136-8a0bc24e-ce91-41a6-8108-217ff94d87b1.png)
+Now we will pass the worong value of Signature r as 1111111 just any value So as we are passing signature value 
+Wrong it fails the verification and gives this message: **SIGNATURE VERIFICATION IS FAILED!!!!!!!!!!!!!!... REJECTED..!! ** 
+below is screen shot of this
+![image](https://user-images.githubusercontent.com/94394753/145405587-844f8f29-928b-4105-aa0e-5df8b52e12d6.png)
+

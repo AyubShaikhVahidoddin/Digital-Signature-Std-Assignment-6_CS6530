@@ -9,10 +9,10 @@ The program is in C- language. name of program file is-
 **DigitalSignaturesStdAlgo.c**
 
 -----------------------------------------------------------------------------------------------------------------
-**THIS Code is already compiled on this and uploded in this online Compiler  https://onlinegdb.com/Erf0kz-XK
+**I HAVE DID THIS Code and is compiled and I have uploded code in this online Compiler  https://onlinegdb.com/Erf0kz-XK
 Just click on this link( https://onlinegdb.com/Erf0kz-XK ) it will take you to the project there you can directly RUN the program i have uploded same code 
-in this compiler you can check the code and name it was creted by me so that it is easy for you to verify instead downloading the exe sometime it block by antivirus 
-so problem to running .exe or creating .exe. 👍 **
+in this compiler you can check the code same as in git repo it was creted by me so that it is easy for you sir to verify instead downloading the exe sometime it block by antivirus 
+so problem to running .exe or creating .exe. please check and let me know in case any issue 👍 **
 ------------------------------------------------------------------------------------------------------------------------------------
 
 

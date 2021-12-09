@@ -20,7 +20,7 @@ and it will run the program easy way.( on nline compiler to run the program http
 ![image](https://user-images.githubusercontent.com/94394753/145401172-a7b91606-1546-4343-a5ab-dc15e99a9ae4.png)
 
 3. Now to verfiy the Signature belwo is screen shot
-4. we enter the same message which entered origanally to check - msg is- **123456789**
+4. we enter the same message which entered initially to check - msg is- **123456789**
 5. then we enter the r and s to verify Signature as below screen shot we enter correct data of r and s
  and message and signature is same so it gives the Successful message 👍 as per belwo screen shot
 **SIGNATURE VERIFICATION IS SUCCESSFULL!!!!!!!!!!!!!!... ACCEPTED..!! :-) :-) **

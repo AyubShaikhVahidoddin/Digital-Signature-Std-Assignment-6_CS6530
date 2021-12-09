@@ -10,6 +10,7 @@ The program is in C- language. name of program file is-
 
 To generate binary EXE file use this command
 - gcc DigitalSignaturesStdAlgo.c -o DSS -lgmp
+- 
 and then run the exe.
 or dirctly compile the program DigitalSignaturesStdAlgo.c and sha_256.h programs it will run the 
 We can use the online c compiler to Run this as well just add these 2 files DigitalSignaturesStdAlgo.c and sha_256.h

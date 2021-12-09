@@ -14,13 +14,29 @@
 
 #include "sha_256.h"
 
+
+#define SHA1HANDSOFF
+
+#include <stdio.h>
+#include <string.h>
+#include<stdlib.h>
+/* for uint32_t */
+#include <stdint.h>
+
+
+
 char message[100000] = "sdfghjhgfdsfghjhgfdghjhgfhjkhgfghjhtrfgytretyuiouytretyuiuytretyuiuytryuiuytryuiuytryuiytryuiytryuiytryuiytryuiytruuytrytryrtd";
 char msg[100000] = "dhfgsdhjfhsdfsdfghdsfghsdfgsdfghsdfghsdfsdfhgsdfghsdfgsghdfghdsfgsdgfghsdfhgsdfgsdfgsghdfghsfghsdfdghsfgsdfgsdfgsdghfgshdfghdsgsdg";
 mpz_t p,q,g,x,y,h;
 mpz_t r, s, r1, s1;
 mpz_t Hm;
 
-void NISTSigningAlgotithm()
+
+
+
+
+
+void DSSigningAlgotithm()
 {
 
 
@@ -71,7 +87,7 @@ void NISTSigningAlgotithm()
     gmp_printf("\nSignature (r,s) generated    : (%Zd, %Zd)", r , s);
 }
 
-void NISTVerificationAlgotithm()
+void DSSVerificationAlgotithm()
 {
 	printf("\n\n\n*************************************************************************************");
     printf("\n********************** Signature Verification *****************************************");
@@ -260,15 +276,6 @@ A million repetitions of "a"
 /* #define LITTLE_ENDIAN * This should be #define'd already, if true. */
 /* #define SHA1HANDSOFF * Copies data before messing with it. */
 
-#define SHA1HANDSOFF
-
-#include <stdio.h>
-#include <string.h>
-#include<stdlib.h>
-/* for uint32_t */
-#include <stdint.h>
-
-#include "sha_256.h"
 
 
 #define rol(value, bits) (((value) << (bits)) | ((value) >> (32 - (bits))))
@@ -570,9 +577,9 @@ int main()
 
     DSASetup();
 
-    NISTSigningAlgotithm();
+    DSSigningAlgotithm();
 
-    NISTVerificationAlgotithm();
+    DSSVerificationAlgotithm();
 
     printf("\nEnter any number to exit:");
     scanf("%d", & num);
